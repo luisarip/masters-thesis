@@ -210,6 +210,18 @@ plt.legend()
 # Show the plot
 plt.show()
 
+### Plot comparing predicted vs real values
+
+plt.figure(figsize=(8, 8))
+plt.scatter(test_labels, predictions, color='blue', label='Predictions vs Real Labels')
+plt.plot([min(test_labels), max(test_labels)], [min(predictions), max(predictions)], color='red', linestyle='--', label='y=x')
+plt.xlabel('Real Labels')
+plt.ylabel('Predictions')
+plt.title('Model Predictions vs Real Labels')
+plt.legend()
+plt.grid(True)
+plt.show()
+
 ### Neural Network with dropout: 3rd attempt
 
 # Input layer
