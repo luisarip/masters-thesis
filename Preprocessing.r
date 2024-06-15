@@ -695,3 +695,10 @@ barplot(
   cex.names = 0.6,
   main = "Emotions in content",
   xlab="emotions", ylab = NULL)
+
+# Plots with ggplot
+ggplot(dataset6, aes(x = Users)) + 
+  geom_histogram(color = "white", breaks = seq(0, 160, by = 10))
+
+ggplot(dataset6, aes(y = Users, x = Year)) + 
+  geom_point()
