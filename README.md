@@ -12,3 +12,17 @@ This repository contains the following scripts:
   - **Neural networks**: Non-informative, but with higher predictive power. 
 
 I also included the datasets obtained and the Markdown documents to prove reproducibility. 
+
+### Citation
+
+To cite this thesis in publications use:
+
+```
+@mastersthesis{l.ripoll2024oc,
+  author    = {Luisa Ripoll},
+  title     = {Advanced Predictive Models for the Young Readership of `La Razón' Newspaper},
+  school    = {Universidad Carlos III de Madrid},
+  year      = {2024},
+  url       = {https://github.com/luisarip/masters-thesis/}
+}
+```
