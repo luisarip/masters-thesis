@@ -18,7 +18,7 @@ I also included the datasets obtained and the Markdown documents to prove reprod
 To cite this thesis in publications use:
 
 ```
-@mastersthesis{l.ripoll2024oc,
+@mastersthesis{l.ripoll2024,
   author    = {Luisa Ripoll},
   title     = {Advanced Predictive Models for the Young Readership of `La Razón' Newspaper},
   school    = {Universidad Carlos III de Madrid},
