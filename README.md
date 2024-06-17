@@ -11,8 +11,6 @@ This repository contains the following scripts:
   - **Bayesian regression**: Using a negative binomial to manage overdispersion.
   - **Neural networks**: Non-informative, but with higher predictive power. 
 
-I also included the datasets obtained and the Markdown documents to prove reproducibility. 
-
 ### Citation
 
 To cite this thesis in publications use:
